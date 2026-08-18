@@ -1,6 +1,6 @@
 <div align="center">
 
-[🇨🇳 中文](#中文) | [🇺🇸 English](#english)
+[🇨🇳 中文](#中文) | [🇺🇸 English](#English) | [Result](#result)
 
 </div>
 
@@ -1260,7 +1260,7 @@ This project is released for educational and experimental purposes.
 
 <div align="center">
 
-[🇨🇳 中文](#中文) | [🇺🇸 English](#english)
+[🇨🇳 中文](#中文) | [🇺🇸 English](#English) | [Result](#result)
 
 </div>
 
@@ -2533,3 +2533,19 @@ P(token_t | token_1, token_2, ..., token_{t-1})
 # License
 
 本项目仅用于学习和实验目的。
+
+<a id="result"></a>
+
+# The training and SFT data used wikiCN2023 and baike2018qa in Chinese language. These are some high quality conversation example.
+# 训练数据使用了wikiCN2023与baike2018qa，以下是一些高质量示例对话。
+
+> 我有点发烧怎么办
+可以用药，如果是小孩的体质不好就不要吃辛辣食物。要注意饮食清淡易消化吸收的东西。多喝水会使孩子产生更大的感染力、甚至出现呼吸道症状等问题；另外还可适当增加运动量和活动次数;如过多的热性病患者应尽快去医院检查治疗.
+(translate)> What should I do if I have a bit of a fever?  
+You can take medicine. If it's a child with a weak constitution, they shouldn't eat spicy food. Pay attention to a light diet that's easy to digest and absorb. Drinking more water may make the child more susceptible to infection and even cause respiratory symptoms and other problems. Also, you can appropriately increase exercise and activity levels. If someone has too much heat-related illness, they should go to the hospital for check-up and treatment as soon as possible.
+
+
+> 什么是梦想啊？
+“梦想”，是指在某个时刻内心深处充满阳光与热情的未来。它是一种理想、纯洁和神秘感的人；
+(translate)> What is a dream?  
+A 'dream' refers to a future that fills your heart with sunshine and passion at a certain moment. It’s a kind of ideal, purity, and sense of mystery in a person; 
