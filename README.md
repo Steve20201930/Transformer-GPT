@@ -1260,7 +1260,7 @@ This project is released for educational and experimental purposes.
 
 <a id="result"></a>
 
-# The training and SFT data used wikiCN2023 and baike2018qa in Chinese language. These are some high quality conversation example.
+# The training and SFT data used wikiCN2023 and baike2018qa in Chinese language. These are some high quality conversation examples.
 # 训练数据使用了wikiCN2023与baike2018qa，以下是一些高质量示例对话。
 
 > 发烧怎么办？
@@ -1273,14 +1273,14 @@ This project is released for educational and experimental purposes.
 Hello: Generally speaking, depending on the severity of the illness, caused by foreign body sensation, colds, cough, and bronchitis may occur. It is recommended to use a combination of traditional Chinese and Western medicine (such as Baihe tablets) for treatment to cure it; at the same time, pay attention to a light and easily digestible diet and keep the external genital area appropriately moist.
 
 
-> 什么是梦想啊？
+> 什么是梦想？
 
-“梦想”，是指在某个时刻内心深处充满阳光与热情的未来。它是一种理想、纯洁和神秘感的人；
+“梦想”，就是实现自己与目标的动力。这是一种理想、有价值和高效发展的前提；我们需要建立一个能让自己的幸福更快乐地成长为未来的人生目标，而不是为了生存而活着。
 
 (translate)
 > What is a dream?
 
-A 'dream' refers to a future that fills your heart with sunshine and passion at a certain moment. It’s a kind of ideal, purity, and sense of mystery in a person; 
+"Dreams" are the motivation to achieve yourself and your goals. It's a premise for having ideals, value, and efficient growth; we need to create life goals that let our happiness grow more joyfully for the future, instead of just living to survive.
 
 <div align="center">
 
