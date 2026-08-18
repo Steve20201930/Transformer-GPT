@@ -1,6 +1,6 @@
 <div align="center">
 
-[🇨🇳 中文](#中文) | [🇺🇸 English](#English) | [Result](#result)
+[🇨🇳 中文](#中文) | [🇺🇸 English](#English) |[Examples](#result)
 
 </div>
 
