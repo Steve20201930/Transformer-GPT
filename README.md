@@ -1260,12 +1260,6 @@ It should not be considered a production-ready Transformer implementation.
 
 This project is released for educational and experimental purposes.
 
-<p align="center">
-  <a href="README.md">🇺🇸 English</a>
-  &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="README_CN.md">🇨🇳 简体中文</a>
-</p>
-
 # 中文
 
 <a id="中文"></a>
