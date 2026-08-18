@@ -114,8 +114,6 @@ C++
 
 # Stage 1 — Learning C++
 
-Before working on machine learning, I spent a lot of time learning C++ itself.
-
 The project is intentionally written using relatively basic C++ data structures.
 
 For example, matrices are represented as:
@@ -1259,6 +1257,12 @@ It should not be considered a production-ready Transformer implementation.
 # License
 
 This project is released for educational and experimental purposes.
+
+<div align="center">
+
+[🇨🇳 中文](#中文) | [🇺🇸 English](#english)
+
+</div>
 
 # 中文
 
