@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="README.md">🇺🇸 English</a>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="README_CN.md">🇨🇳 简体中文</a>
+</p>
+
 # From Scratch Transformer in C++
 
 > **Learning Machine Learning by Building It From Scratch.**
