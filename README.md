@@ -2570,35 +2570,34 @@ P(token_t | token_1, token_2, ..., token_{t-1})
 
 <a id="use"></a>
 
-# How to use?
-## For user
-You should unpack the model or put your own 'train' folder in (usr) folder(Mac) or in the same path with the main program(Windows).
-To start it, please using USR_Sweden_sft
-
-When you are in the USR_Sweden_sft, there are several code you need to know:
+# How to Use
+## For Users
+You should unpack the model or put your own train folder in the usr folder (Mac) or in the same directory as the main program (Windows).
+To start it, please use USR_Sweden_sft.
+When you are using USR_Sweden_sft, there are several commands you need to know:
 > #change
 
-For change the pre-setting prompt(front, opposite).
+To change the preset prompt (front/opposite).
 > #temp
 
-For change the temperature of predicting next word.
+To change the temperature used to predict the next word.
 > #maxlength
 
-For change the maximum generation of tokens.
+To change the maximum number of tokens generated.
 > #debug
 
-For toggle the debug mode.
+To toggle debug mode.
 > #mem
 
-For toggle the memorizing contexts mode.
-
-# How to train?
-## For trainer
-1. You should unpack the 'Training Package for xxx' in an appropriate folder.
-2. You should create a folder named as 'train'. For Mac user, you'd better create this folder under the (usr) folder.
-3. You should put the original training text in the 'train' folder and name it as 'train.txt'.
-4. Create a file named as 'para.txt', including total epochs, d, dk, heads quantity, layers quantity, max sequence length. Separating it in different lines but in ordered. (For recommend, 1000000 384 384 6 8 256)
-5. Run the program 'genVocab', in order to generate tokens. (genVocab2 has the same function as genVocab but much more faster)
-6.  Run the program 'genNew', in order to generate initial parameters.
-7.  To start training, run the program 'TSFM_Sweden'. (TSFM_Sweden2 has the same function as TSFM_Sweden but much more faster)
-8.  After the training, you can run the program 'TSFM_Sweden_sft' to slight adjust the model. Before you start it, you should create a file named as 'sft.txt' and put the training text in it.
+To toggle context memorization mode.
+# How to Train
+## For Trainers
+1. Unpack the Training Package for xxx into an appropriate folder.
+2. Create a folder named train. For Mac users, you should create this folder inside the usr folder.
+3. Put the original training text in the train folder and name it train.txt.
+4. Create a file named para.txt containing the total number of epochs, d, dk, number of heads, number of layers, and maximum sequence length. Put each value on a separate line, in the following order.
+5. Recommended values: 1000000 384 384 6 8 256
+6. Run the program genVocab to generate the tokens. (genVocab2 has the same function as genVocab but is much faster.)
+7. Run the program genNew to generate the initial parameters.
+8. To start training, run the program TSFM_Sweden. (TSFM_Sweden2 has the same function as TSFM_Sweden but is much faster.)
+9. After training, you can run the program TSFM_Sweden_sft to slightly adjust the model. Before starting it, create a file named sft.txt and put the training text in it.
