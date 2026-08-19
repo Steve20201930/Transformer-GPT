@@ -2573,9 +2573,9 @@ P(token_t | token_1, token_2, ..., token_{t-1})
 ## How to use?
 # For user
 You should unpack the model or put your own 'train' folder in (usr) folder(Mac) or in the same path with the main program(Windows).
-To start it, please using USR_Sweden_sft(conversation) or USR_Sweden(continue predict writing).
+To start it, please using USR_Sweden_sft
 
-When you are in the USR_Sweden_sft(conversation), there are several code you need to know:
+When you are in the USR_Sweden_sft, there are several code you need to know:
 > #change
 
 For change the pre-setting prompt(front, opposite).
