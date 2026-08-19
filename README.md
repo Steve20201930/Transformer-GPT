@@ -1163,10 +1163,10 @@ These limitations are part of the learning process.
 
 ## Performance
 
-- [ ] OpenMP acceleration
+- [x] OpenMP acceleration
 - [ ] SIMD optimization
-- [ ] CUDA implementation
-- [ ] Metal implementation
+- [x] CUDA implementation
+- [x] Metal implementation
 - [ ] GPU matrix multiplication
 - [ ] Better memory management
 
@@ -2467,10 +2467,10 @@ P(token_t | token_1, token_2, ..., token_{t-1})
 
 ## 性能优化
 
-- [ ] OpenMP 加速
+- [x] OpenMP 加速
 - [ ] SIMD 优化
-- [ ] CUDA 实现
-- [ ] Metal 实现
+- [x] CUDA 实现
+- [x] Metal 实现
 - [ ] GPU 矩阵乘法
 - [ ] 更好的内存管理
 
