@@ -2570,8 +2570,8 @@ P(token_t | token_1, token_2, ..., token_{t-1})
 
 <a id="use"></a>
 
-## How to use?
-# For user
+# How to use?
+## For user
 You should unpack the model or put your own 'train' folder in (usr) folder(Mac) or in the same path with the main program(Windows).
 To start it, please using USR_Sweden_sft
 
@@ -2592,8 +2592,8 @@ For toggle the debug mode.
 
 For toggle the memorizing contexts mode.
 
-## How to train?
-# For trainer
+# How to train?
+## For trainer
 1. You should unpack the 'Training Package for xxx' in an appropriate folder.
 2. You should create a folder named as 'train'. For Mac user, you'd better create this folder under the (usr) folder.
 3. You should put the original training text in the 'train' folder and name it as 'train.txt'.
