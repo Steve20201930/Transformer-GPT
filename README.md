@@ -2577,14 +2577,19 @@ To start it, please using USR_Sweden_sft(conversation) or USR_Sweden(continue pr
 
 When you are in the USR_Sweden_sft(conversation), there are several code you need to know:
 > #change
+
 For change the pre-setting prompt(front, opposite).
 > #temp
+
 For change the temperature of predicting next word.
 > #maxlength
+
 For change the maximum generation of tokens.
 > #debug
+
 For toggle the debug mode.
 > #mem
+
 For toggle the memorizing contexts mode.
 
 ## How to train?
