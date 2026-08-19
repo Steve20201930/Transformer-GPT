@@ -1,6 +1,6 @@
 <div align="center">
 
-[🇨🇳 中文](#中文) | [🇺🇸 English](#English) |[Examples](#result)
+[🇨🇳 中文](#中文) | [🇺🇸 English](#English) | [Examples](#result) | [How to use](#use)
 
 </div>
 
@@ -1258,6 +1258,12 @@ It should not be considered a production-ready Transformer implementation.
 
 This project is released for educational and experimental purposes.
 
+<div align="center">
+
+[🇨🇳 中文](#中文) | [🇺🇸 English](#English) | [Examples](#result) | [How to use](#use)
+
+</div>
+
 <a id="result"></a>
 
 # The training and SFT data used wikiCN2023 and baike2018qa in Chinese language. These are some high quality conversation examples.
@@ -1284,7 +1290,7 @@ Hello: Generally speaking, depending on the severity of the illness, caused by f
 
 <div align="center">
 
-[🇨🇳 中文](#中文) | [🇺🇸 English](#English) | [Result](#result)
+[🇨🇳 中文](#中文) | [🇺🇸 English](#English) | [Examples](#result) | [How to use](#use)
 
 </div>
 
@@ -2556,4 +2562,38 @@ P(token_t | token_1, token_2, ..., token_{t-1})
 
 本项目仅用于学习和实验目的。
 
+<div align="center">
 
+[🇨🇳 中文](#中文) | [🇺🇸 English](#English) | [Examples](#result) | [How to use](#use)
+
+</div>
+
+<a id="use"></a>
+
+## How to use?
+# For user
+You should unpack the model or put your own 'train' folder in (usr) folder(Mac) or in the same path with the main program(Windows).
+To start it, please using USR_Sweden_sft(conversation) or USR_Sweden(continue predict writing).
+
+When you are in the USR_Sweden_sft(conversation), there are several code you need to know:
+> #change
+For change the pre-setting prompt(front, opposite).
+> #temp
+For change the temperature of predicting next word.
+> #maxlength
+For change the maximum generation of tokens.
+> #debug
+For toggle the debug mode.
+> #mem
+For toggle the memorizing contexts mode.
+
+## How to train?
+# For trainer
+1. You should unpack the 'Training Package for xxx' in an appropriate folder.
+2. You should create a folder named as 'train'. For Mac user, you'd better create this folder under the (usr) folder.
+3. You should put the original training text in the 'train' folder and name it as 'train.txt'.
+4. Create a file named as 'para.txt', including total epochs, d, dk, heads quantity, layers quantity, max sequence length. Separating it in different lines but in ordered. (For recommend, 1000000 384 384 6 8 256)
+5. Run the program 'genVocab', in order to generate tokens. (genVocab2 has the same function as genVocab but much more faster)
+6.  Run the program 'genNew', in order to generate initial parameters.
+7.  To start training, run the program 'TSFM_Sweden'. (TSFM_Sweden2 has the same function as TSFM_Sweden but much more faster)
+8.  After the training, you can run the program 'TSFM_Sweden_sft' to slight adjust the model. Before you start it, you should create a file named as 'sft.txt' and put the training text in it.
