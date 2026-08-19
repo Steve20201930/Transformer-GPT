@@ -2590,7 +2590,7 @@ To toggle debug mode.
 > #mem
 
 To toggle context memorization mode.
-# How to Train
+
 ## For Trainers
 1. Unpack the Training Package for xxx into an appropriate folder.
 2. Create a folder named train. For Mac users, you should create this folder inside the usr folder.
